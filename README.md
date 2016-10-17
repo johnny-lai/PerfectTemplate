@@ -24,6 +24,8 @@ The following will clone and build an empty starter project and launch the serve
 ```
 git clone https://github.com/johnny-lai/swift-service-basic.git
 cd swift-service-basic
+git submodule init
+git submodule update
 make
 .build/debug/SwiftServiceBasic
 ```
